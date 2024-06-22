@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h1>Sobre Mim</h1>
+        <img src="src/imagens/Foto-3x4-1.png" style="border-radius: 50%; width: 150px; height: 200px;">
+        <p>Olá, meu nome é Gabriel de Jesus Maciel. Sou um desenvolvedor junior com experiência inicial em HTML, CSS e JavaScript. Nasci em 2001 e moro na cidade de Ponta Grossa, Paraná. Em meu tempo livre gosto de jogar, ler e escrever.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <a href="https://linkprojeto1.com" target="_blank">
+                <h3>Projeto 1</h3>
+                <p></p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="https://linkprojeto2.com" target="_blank">
+                <h3>Projeto 2</h3>
+                <p></p>
+            </a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gabriel de J. M. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
